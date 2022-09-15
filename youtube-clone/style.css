@@ -75,20 +75,20 @@ body {
   margin-bottom: 10px;
 }
 .category_heading {
-  margin: 10px 0px 10px 25px;
-  color: #606060;
+  margin: 10px 25px 10px 25px;
   font-size: 14px;
   font-weight: 400;
-}
+  color: #606060;
+}  
 .category {
   width: 100%;
-  display: flex;
-  align-items: center;
   height: 40px;
-  padding: 0 24px;
+  align-items: center;
+  display: flex;
   font-size: 14px;
   font-weight: 400;
-  cursor: pointer;
+  cursor: pointer; 
+  padding-left: 10px;
 }
 .category:hover {
   background: #f9f9f9;
@@ -101,7 +101,7 @@ body {
   background: #d0d0d0;
 }
 .active i {
-  color: red;
+  color: black;
 }
 .category i {
   margin-right: 24px;
@@ -124,6 +124,14 @@ body {
   font-size: 13px;
   font-weight: 400;
   margin-bottom: 20px;
+}
+
+.profile-pic {
+  border-radius: 30px;
+  width: 36px;
+  height: 36px;
+  display: flex;  
+  align-content: center\\\;
 }
 
 .videos {
